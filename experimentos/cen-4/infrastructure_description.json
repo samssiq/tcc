@@ -30,14 +30,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "16",
-                    "memory": "500Gi",
+                    "cpu": "8",
+                    "memory": "16Gi",
                     "pods": "128",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "16",
-                    "memory": "500Gi",
+                    "cpu": "2",
+                    "memory": "4Gi",
                     "pods": "128",
                     "ephemeral-storage": "100Gi"
                 },
