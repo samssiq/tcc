@@ -1,0 +1,119 @@
+{
+  "setup": {
+    "experiment-tcc": [
+      {
+        "apiVersion": "apps/v1",
+        "kind": "Deployment",
+        "metadata": {
+          "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
+          "namespace": "experiment-tcc"
+        },
+        "spec": {
+          "replicas": 20,
+          "selector": {
+            "matchLabels": {
+              "app": "fake-pod",
+              "deployment": "otel-o11y-ob3-af-beta-opentelemetry-collector"
+            }
+          },
+          "template": {
+            "metadata": {
+              "labels": {
+                "app": "fake-pod",
+                "deployment": "otel-o11y-ob3-af-beta-opentelemetry-collector"
+              }
+            },
+            "spec": {
+              "schedulerName": "custom-scheduler",
+              "affinity": {},
+              "tolerations": [
+                {
+                  "key": "kwok.x-k8s.io/node",
+                  "operator": "Exists",
+                  "effect": "NoSchedule"
+                }
+              ],
+              "containers": [
+                {
+                  "name": "fake-container",
+                  "image": "fake-image",
+                  "resources": {
+                    "requests": {
+                      "cpu": "1",
+                      "memory": "1Gi"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "emulation": [
+    {
+      "timestamp": 300,
+      "applied_objects": {},
+      "deleted_objects": [],
+      "scaled_replicasets": [
+        {
+          "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
+          "namespace": "experiment-tcc",
+          "pods": 20,
+          "kind": "deployment"
+        }
+      ]
+    },
+    {
+      "timestamp": 600,
+      "applied_objects": {},
+      "deleted_objects": [],
+      "scaled_replicasets": [
+        {
+          "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
+          "namespace": "experiment-tcc",
+          "pods": 24,
+          "kind": "deployment"
+        }
+      ]
+    },
+    {
+      "timestamp": 900,
+      "applied_objects": {},
+      "deleted_objects": [],
+      "scaled_replicasets": [
+        {
+          "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
+          "namespace": "experiment-tcc",
+          "pods": 28,
+          "kind": "deployment"
+        }
+      ]
+    },
+    {
+      "timestamp": 1200,
+      "applied_objects": {},
+      "deleted_objects": [],
+      "scaled_replicasets": [
+        {
+          "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
+          "namespace": "experiment-tcc",
+          "pods": 32,
+          "kind": "deployment"
+        }
+      ]
+    },
+    {
+      "timestamp": 1200,
+      "applied_objects": {},
+      "deleted_objects": [
+        {
+          "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
+          "namespace": "experiment-tcc"
+      }
+      ],
+      "scaled_replicasets": []
+    }
+  ]
+}

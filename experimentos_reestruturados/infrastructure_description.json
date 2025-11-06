@@ -1,0 +1,341 @@
+{
+    "setup": [
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "name": "ip-172-16-16-126.ec2.internal",
+                "labels": {
+                    "eks-node-viewer/instance-price": "0.217179869184",
+                    "beta.kubernetes.io/arch": "amd64",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "amd64",
+                    "kubernetes.io/hostname": "ip-172-16-16-126.ec2.internal",
+                    "kubernetes.io/os": "linux",
+                    "kwok.x-k8s.io/node": "true",
+                    "node.kubernetes.io/instance-type": "a1.2xlarge"
+                },
+                "annotations": {
+                    "kwok.x-k8s.io/node": "fake"
+                }
+            },
+            "spec": {
+                "taints": [
+                    {
+                        "key": "kwok.x-k8s.io/node",
+                        "effect": "NoSchedule",
+                        "value": "fake"
+                    }
+                ]
+            },
+            "status": {
+                "capacity": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "allocatable": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "nodeInfo": {
+                    "machineID": "",
+                    "systemUUID": "",
+                    "bootID": "",
+                    "kernelVersion": "",
+                    "osImage": "",
+                    "containerRuntimeVersion": "",
+                    "kubeletVersion": "kwok-v0.7.0",
+                    "kubeProxyVersion": "kwok-v0.7.0",
+                    "operatingSystem": "linux",
+                    "architecture": "amd64"
+                },
+                "phase": "Running"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "name": "ip-172-16-23-100.ec2.internal",
+                "labels": {
+                    "eks-node-viewer/instance-price": "0.217179869184",
+                    "beta.kubernetes.io/arch": "amd64",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "amd64",
+                    "kubernetes.io/hostname": "ip-172-16-23-100.ec2.internal",
+                    "kubernetes.io/os": "linux",
+                    "kwok.x-k8s.io/node": "true",
+                    "node.kubernetes.io/instance-type": "a1.2xlarge"
+                },
+                "annotations": {
+                    "kwok.x-k8s.io/node": "fake"
+                }
+            },
+            "spec": {
+                "taints": [
+                    {
+                        "key": "kwok.x-k8s.io/node",
+                        "effect": "NoSchedule",
+                        "value": "fake"
+                    }
+                ]
+            },
+            "status": {
+                "capacity": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "allocatable": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "nodeInfo": {
+                    "machineID": "",
+                    "systemUUID": "",
+                    "bootID": "",
+                    "kernelVersion": "",
+                    "osImage": "",
+                    "containerRuntimeVersion": "",
+                    "kubeletVersion": "kwok-v0.7.0",
+                    "kubeProxyVersion": "kwok-v0.7.0",
+                    "operatingSystem": "linux",
+                    "architecture": "amd64"
+                },
+                "phase": "Running"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "name": "ip-172-16-230-4.ec2.internal",
+                "labels": {
+                    "eks-node-viewer/instance-price": "0.217179869184",
+                    "beta.kubernetes.io/arch": "amd64",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "amd64",
+                    "kubernetes.io/hostname": "ip-172-16-230-4.ec2.internal",
+                    "kubernetes.io/os": "linux",
+                    "kwok.x-k8s.io/node": "true",
+                    "node.kubernetes.io/instance-type": "a1.2xlarge"
+                },
+                "annotations": {
+                    "kwok.x-k8s.io/node": "fake"
+                }
+            },
+            "spec": {
+                "taints": [
+                    {
+                        "key": "kwok.x-k8s.io/node",
+                        "effect": "NoSchedule",
+                        "value": "fake"
+                    }
+                ]
+            },
+            "status": {
+                "capacity": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "allocatable": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "nodeInfo": {
+                    "machineID": "",
+                    "systemUUID": "",
+                    "bootID": "",
+                    "kernelVersion": "",
+                    "osImage": "",
+                    "containerRuntimeVersion": "",
+                    "kubeletVersion": "kwok-v0.7.0",
+                    "kubeProxyVersion": "kwok-v0.7.0",
+                    "operatingSystem": "linux",
+                    "architecture": "amd64"
+                },
+                "phase": "Running"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "name": "ip-172-16-235-116.ec2.internal",
+                "labels": {
+                    "eks-node-viewer/instance-price": "0.217179869184",
+                    "beta.kubernetes.io/arch": "amd64",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "amd64",
+                    "kubernetes.io/hostname": "ip-172-16-235-116.ec2.internal",
+                    "kubernetes.io/os": "linux",
+                    "kwok.x-k8s.io/node": "true",
+                    "node.kubernetes.io/instance-type": "a1.2xlarge"
+                },
+                "annotations": {
+                    "kwok.x-k8s.io/node": "fake"
+                }
+            },
+            "spec": {
+                "taints": [
+                    {
+                        "key": "kwok.x-k8s.io/node",
+                        "effect": "NoSchedule",
+                        "value": "fake"
+                    }
+                ]
+            },
+            "status": {
+                "capacity": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "allocatable": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "nodeInfo": {
+                    "machineID": "",
+                    "systemUUID": "",
+                    "bootID": "",
+                    "kernelVersion": "",
+                    "osImage": "",
+                    "containerRuntimeVersion": "",
+                    "kubeletVersion": "kwok-v0.7.0",
+                    "kubeProxyVersion": "kwok-v0.7.0",
+                    "operatingSystem": "linux",
+                    "architecture": "amd64"
+                },
+                "phase": "Running"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "name": "ip-172-16-243-242.ec2.internal",
+                "labels": {
+                    "eks-node-viewer/instance-price": "0.217179869184",
+                    "beta.kubernetes.io/arch": "amd64",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "amd64",
+                    "kubernetes.io/hostname": "ip-172-16-243-242.ec2.internal",
+                    "kubernetes.io/os": "linux",
+                    "kwok.x-k8s.io/node": "true",
+                    "node.kubernetes.io/instance-type": "a1.2xlarge"
+                },
+                "annotations": {
+                    "kwok.x-k8s.io/node": "fake"
+                }
+            },
+            "spec": {
+                "taints": [
+                    {
+                        "key": "kwok.x-k8s.io/node",
+                        "effect": "NoSchedule",
+                        "value": "fake"
+                    }
+                ]
+            },
+            "status": {
+                "capacity": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "allocatable": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "nodeInfo": {
+                    "machineID": "",
+                    "systemUUID": "",
+                    "bootID": "",
+                    "kernelVersion": "",
+                    "osImage": "",
+                    "containerRuntimeVersion": "",
+                    "kubeletVersion": "kwok-v0.7.0",
+                    "kubeProxyVersion": "kwok-v0.7.0",
+                    "operatingSystem": "linux",
+                    "architecture": "amd64"
+                },
+                "phase": "Running"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Node",
+            "metadata": {
+                "name": "ip-172-16-245-153.ec2.internal",
+                "labels": {
+                    "eks-node-viewer/instance-price": "0.217179869184",
+                    "beta.kubernetes.io/arch": "amd64",
+                    "beta.kubernetes.io/os": "linux",
+                    "kubernetes.io/arch": "amd64",
+                    "kubernetes.io/hostname": "ip-172-16-245-153.ec2.internal",
+                    "kubernetes.io/os": "linux",
+                    "kwok.x-k8s.io/node": "true",
+                    "node.kubernetes.io/instance-type": "a1.2xlarge"
+                },
+                "annotations": {
+                    "kwok.x-k8s.io/node": "fake"
+                }
+            },
+            "spec": {
+                "taints": [
+                    {
+                        "key": "kwok.x-k8s.io/node",
+                        "effect": "NoSchedule",
+                        "value": "fake"
+                    }
+                ]
+            },
+            "status": {
+                "capacity": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "allocatable": {
+                    "cpu": "4",
+                    "memory": "4Gi",
+                    "pods": "4",
+                    "ephemeral-storage": "100Gi"
+                },
+                "nodeInfo": {
+                    "machineID": "",
+                    "systemUUID": "",
+                    "bootID": "",
+                    "kernelVersion": "",
+                    "osImage": "",
+                    "containerRuntimeVersion": "",
+                    "kubeletVersion": "kwok-v0.7.0",
+                    "kubeProxyVersion": "kwok-v0.7.0",
+                    "operatingSystem": "linux",
+                    "architecture": "amd64"
+                },
+                "phase": "Running"
+            }
+        }
+      ],
+      "emulation": []
+    }
