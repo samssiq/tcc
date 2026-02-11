@@ -30,14 +30,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
@@ -86,14 +86,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
@@ -142,14 +142,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
@@ -198,14 +198,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
@@ -254,14 +254,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
@@ -310,14 +310,14 @@
             },
             "status": {
                 "capacity": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
                 "allocatable": {
-                    "cpu": "6",
-                    "memory": "6Gi",
+                    "cpu": "6.5",
+                    "memory": "6.5Gi",
                     "pods": "600",
                     "ephemeral-storage": "100Gi"
                 },
