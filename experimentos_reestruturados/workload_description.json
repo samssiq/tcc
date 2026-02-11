@@ -25,6 +25,9 @@
             },
             "spec": {
               "schedulerName": "custom-scheduler",
+              "nodeSelector": {
+                "kwok.x-k8s.io/node": "true"
+              },
               "affinity": {},
               "tolerations": [
                 {
@@ -111,7 +114,7 @@
         {
           "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
           "namespace": "experiment-tcc"
-      }
+        }
       ],
       "scaled_replicasets": []
     }
