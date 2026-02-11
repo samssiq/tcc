@@ -76,7 +76,7 @@
         {
           "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
           "namespace": "experiment-tcc",
-          "pods": 24,
+          "pods": 36,
           "kind": "deployment"
         }
       ]
@@ -89,7 +89,7 @@
         {
           "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
           "namespace": "experiment-tcc",
-          "pods": 28,
+          "pods": 40,
           "kind": "deployment"
         }
       ]
@@ -102,7 +102,7 @@
         {
           "name": "otel-o11y-ob3-af-beta-opentelemetry-collector",
           "namespace": "experiment-tcc",
-          "pods": 32,
+          "pods": 48,
           "kind": "deployment"
         }
       ]
